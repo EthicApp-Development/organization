@@ -1,4 +1,4 @@
-# Git workflow style
+# Git workflow guidelines
 
 The implemented standards for branching, committing and merging are defined in [this brief document](https://github.com/agis/git-style-guide/tree/3636597136ca32412382e1885ec46adb538ec7dc#readme).
 
@@ -6,12 +6,14 @@ The implemented standards for branching, committing and merging are defined in [
 
 <!-- TODO: mention remote CI processes (GitHub Actions) when done -->
 
-- [Git workflow style](#git-workflow-style)
+- [Git workflow guidelines](#git-workflow-guidelines)
   - [1. Issuing](#1-issuing)
     - [1.1. Bug reports](#11-bug-reports)
     - [1.2. Feature requests](#12-feature-requests)
     - [1.3. Pull requests](#13-pull-requests)
-  - [2. Acknowledgements](#2-acknowledgements)
+  - [2. Committing](#2-committing)
+  - [3. Branching](#3-branching)
+  - [4. Acknowledgements](#4-acknowledgements)
 
 ## 1. Issuing
 
@@ -19,7 +21,7 @@ This section explain how and when to create issues in [EthicApp's GitHub project
 
 <!-- TODO: define overall issue title format and its minimum content, including scope (not vague issues) -->
 
-<!-- ? what about specific "tasks/to-do" issues? do we need another category for it? make it clear -->
+<!-- ! What about specific "tasks/to-do" issues, such as refactorings? they're not exactly bugs nor new features. Do we need another category for it? make it clear -->
 
 ### 1.1. Bug reports
 
@@ -43,6 +45,14 @@ TODO <!-- TODO: include a good actual example, as a screenshot -->
 
 TODO <!-- TODO -->
 
-## 2. Acknowledgements
+## 2. Committing
+
+TODO <!-- TODO -->
+
+## 3. Branching
+
+TODO <!-- TODO -->
+
+## 4. Acknowledgements
 
 The issues guidelines were inspired from [necola's `issue-guidelines` project](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md).
