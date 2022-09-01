@@ -1,21 +1,22 @@
-# Git workflow guidelines
+# 1. Git workflow guidelines
 
 Our projects will implement `agis`'s standards, defined in [this brief document](https://github.com/agis/git-style-guide/tree/3636597136ca32412382e1885ec46adb538ec7dc#readme).
 
-- [Git workflow guidelines](#git-workflow-guidelines)
+- [1. Git workflow guidelines](#1-git-workflow-guidelines)
   - [1. Issuing](#1-issuing)
     - [1.1. Bug reports](#11-bug-reports)
     - [1.2. Feature requests](#12-feature-requests)
-    - [Enhancement](#enhancement)
-    - [1.3. Merging](#13-merging)
-    - [1.4. Pull requests](#14-pull-requests)
-  - [2. Committing](#2-committing)
-  - [3. Branching](#3-branching)
-  - [4. Appendix: acknowledgements](#4-appendix-acknowledgements)
+    - [1.3. Enhancement](#13-enhancement)
+    - [1.4. Questions and discussions](#14-questions-and-discussions)
+  - [2. Merging](#2-merging)
+  - [3. Pull requests](#3-pull-requests)
+  - [4. Committing](#4-committing)
+  - [5. Branching](#5-branching)
+  - [6. Appendix: references](#6-appendix-references)
 
 ## 1. Issuing
 
-This section explain how and when to create issues in [EthicApp's GitHub project repository](https://github.com/EthicApp-Development/ethicapp-main). The language of all issues will be **SPANISH**, unlike the rest of all documentation and code. This will make confusions less likely and will make it easier to post a bug report or other kind of issues, as the organization members are all (supposed to be) spanish-speakers.
+This section explain how and when to create issues in the [EthicApp's GitHub project repository](https://github.com/EthicApp-Development/ethicapp-main). The language of all issues will be **SPANISH**, unlike the rest of all documentation and code. This will make confusions less likely and will make it easier to post a bug report or other kind of issues for local contributors, as was started and will continue development on spanish-speaker universities (at Chile).
 
 <!-- TODO: define overall issue title format and its minimum content, including scope (not vague issues) -->
 
@@ -39,26 +40,32 @@ Example:
 
 TODO <!-- TODO: include a good actual example, as a screenshot -->
 
-### Enhancement
+### 1.3. Enhancement
 
 <!-- ! What about specific "tasks/to-do" issues, such as refactorings? they're not exactly bugs nor new features. Do we need another category for it? make it clear -->
 
-### 1.3. Merging
+### 1.4. Questions and discussions
+
+(internal development scope?)
+
+<!-- TODO: describe how to make a question/start a discussion, using a proper issue label -->
+
+## 2. Merging
 
 ... <!-- TODO: tutorial of how to perform a non-fast-forward merge on vscode IDE -->
 
-### 1.4. Pull requests
+## 3. Pull requests
 
 TODO <!-- TODO -->
 
-## 2. Committing
+## 4. Committing
 
 TODO <!-- TODO -->
 
-## 3. Branching
+## 5. Branching
 
 TODO <!-- TODO -->
 
-## 4. Appendix: acknowledgements
+## 6. Appendix: references
 
-The issues guidelines were inspired from [Nicolas Gallagher's `issue-guidelines` project](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md), and Microsoft's [PowerToys issue templates](https://github.com/microsoft/PowerToys/tree/main/.github/ISSUE_TEMPLATE) for GitHub were used as reference to [EthicApp's issue templates](https://github.com/EthicApp-Development/ethicapp-main/tree/master/.github/ISSUE_TEMPLATE) (main repository).
+The issues guidelines were inspired from [Nicolas Gallagher's `issue-guidelines` project](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md). Microsoft's [PowerToys issue templates](https://github.com/microsoft/PowerToys/tree/main/.github/ISSUE_TEMPLATE) for GitHub were used as reference to [EthicApp's issue templates](https://github.com/EthicApp-Development/ethicapp-main/tree/master/.github/ISSUE_TEMPLATE) (main repository).

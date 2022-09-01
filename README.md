@@ -4,7 +4,7 @@ EthicApp is an open-source academic project designed to help higher education st
 
 > EthicApp is a collaborative application to support students’ development of ethical discernment and moral reasoning. It is available as a web application that can be accessed by any device with a capable web browser, including desktop computers, smart phones, or tablets. EthicApp works in face-to-face or distributed settings, synchronously or asynchronously. [[1]](#1)
 
-This repository contains information of the [`EthicApp-Development` GitHub organization](https://github.com/EthicApp-Development) exclusively for developing the EthicApp project, which main repository is [`ethicapp-main`](https://github.com/EthicApp-Development/ethicapp-main).
+This repository contains information of the [`EthicApp-Development` GitHub organization](https://github.com/EthicApp-Development) exclusively for developing the EthicApp project, which main repository is [`ethicapp-main`](https://github.com/EthicApp-Development/ethicapp-main). For a much more detail and technical explanation of the project, consider reviewing the paper *Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity* at the [references section](#appendix-references).
 
 ## Vision and goals
 
