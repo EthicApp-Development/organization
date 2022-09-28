@@ -1,13 +1,12 @@
-# 1. Git workflow guidelines
+# Git workflow guidelines
 
-Our projects will implement `agis`'s standards, defined in [this brief document](https://github.com/agis/git-style-guide/tree/3636597136ca32412382e1885ec46adb538ec7dc#readme).
+Our projects will implement `agis`'s Git standards, defined in [this brief document](https://github.com/agis/git-style-guide/tree/3636597136ca32412382e1885ec46adb538ec7dc#readme).
 
-- [1. Git workflow guidelines](#1-git-workflow-guidelines)
+- [Git workflow guidelines](#git-workflow-guidelines)
   - [1. Issuing](#1-issuing)
     - [1.1. Bug reports](#11-bug-reports)
     - [1.2. Feature requests](#12-feature-requests)
-    - [1.3. Enhancement](#13-enhancement)
-    - [1.4. Questions and discussions](#14-questions-and-discussions)
+    - [1.3. Questions and discussions](#13-questions-and-discussions)
   - [2. Merging](#2-merging)
   - [3. Pull requests](#3-pull-requests)
   - [4. Committing](#4-committing)
@@ -40,11 +39,7 @@ Example:
 
 TODO <!-- TODO: include a good actual example, as a screenshot -->
 
-### 1.3. Enhancement
-
-<!-- ! What about specific "tasks/to-do" issues, such as refactorings? they're not exactly bugs nor new features. Do we need another category for it? make it clear -->
-
-### 1.4. Questions and discussions
+### 1.3. Questions and discussions
 
 (internal development scope?)
 

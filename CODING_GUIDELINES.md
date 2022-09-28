@@ -8,7 +8,7 @@ Most of the work will be automatically done by the ESlint tool (...)
 
 ### Indentation
 
-### Names
+### Naming
 
 ### Types
 

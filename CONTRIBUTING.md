@@ -30,3 +30,8 @@
 - Experience in development and usage of RESTful web APIs.
 - JQuery.
 - ...
+
+## Communication channels
+
+- GitHub
+- Discord (...)
