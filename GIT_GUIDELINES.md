@@ -17,7 +17,7 @@ Our projects will implement `agis`'s Git standards, defined in [this brief docum
 
 This section explain how and when to create issues in the [EthicApp's GitHub project repository](https://github.com/EthicApp-Development/ethicapp-main). The language of all issues will be **SPANISH**, unlike the rest of all documentation and code. This will make confusions less likely and will make it easier to post a bug report or other kind of issues for local contributors, as was started and will continue development on spanish-speaker universities (at Chile).
 
-<!-- TODO: define overall issue title format and its minimum content, including scope (not vague issues) -->
+The format for issue names is `[BRANCH NAME] ISSUE TITLE`, for instance, *"[ethicapp-overhaul-2122] Error de actualización al cambiar de tabs bugSomething isn't working"*. Only specific issues must be created, not general or vague issues, such as, for example, *"Actualizar frontend"*. Besides, there are 3 types of issues, with are defined in this section as follows.
 
 ### 1.1. Bug reports
 
