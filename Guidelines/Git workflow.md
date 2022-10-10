@@ -1,25 +1,47 @@
-# Git workflow guidelines
+# 1. Git workflow guidelines
 
 Our projects will implement `agis`'s Git standards, defined in [this brief document](https://github.com/agis/git-style-guide/tree/3636597136ca32412382e1885ec46adb538ec7dc#readme).
 
-- [Git workflow guidelines](#git-workflow-guidelines)
-  - [1. Issuing](#1-issuing)
-    - [1.1. Bug reports](#11-bug-reports)
-    - [1.2. Feature requests](#12-feature-requests)
-    - [1.3. Questions and discussions](#13-questions-and-discussions)
-  - [2. Merging](#2-merging)
+- [1. Git workflow guidelines](#1-git-workflow-guidelines)
+  - [1. How changes are made](#1-how-changes-are-made)
+    - [1.1. The issue is created](#11-the-issue-is-created)
+    - [1.2. The issue gets assigned to a contributor](#12-the-issue-gets-assigned-to-a-contributor)
+    - [1.3. The issue gets resolved](#13-the-issue-gets-resolved)
+  - [2. Issuing](#2-issuing)
+    - [2.1. Bug reports](#21-bug-reports)
+    - [2.2. Feature requests](#22-feature-requests)
   - [3. Pull requests](#3-pull-requests)
-  - [4. Committing](#4-committing)
-  - [5. Branching](#5-branching)
-  - [6. Appendix: references](#6-appendix-references)
+  - [4. Merging](#4-merging)
+  - [5. Committing](#5-committing)
+  - [6. Branching](#6-branching)
+  - [7. Appendix: references](#7-appendix-references)
 
-## 1. Issuing
+## 1. How changes are made
+
+### 1.1. The issue is created
+
+A change starts when an issue with the details of the change is added to [the main project's GitHub repository](https://github.com/EthicApp-Development/ethicapp-main). There are two ways an issue is officially created:
+
+- An issue is created by a contributor and then gets approved by a maintainer, for being addressed in the project.
+- Directly created by a maintainer, from a user story that needs to be attended, or from a noticed bug.
+
+For both cases, the maintainer has to ensure the issue has all the relevant information for the change, and it is labeled properly.
+
+### 1.2. The issue gets assigned to a contributor
+
+A contributor assigns themselves the issue, and starts working on it, by creating a new branch to work on it, named `issue-X`, where `X` is the issue number. This branch is created from the branch the issue refers to (more details in the next section).
+
+### 1.3. The issue gets resolved
+
+After the contributor performs the changes to fulfill the requirements for the issue, at its branch, they raise a pull request, for merging the changes in the original branch. The maintainer performs code reviewing and QA, and once the pull request gets resolved, the changes are merged in the branch by the maintainer, closing the issue.
+
+## 2. Issuing
 
 This section explain how and when to create issues in the [EthicApp's GitHub project repository](https://github.com/EthicApp-Development/ethicapp-main). The language of all issues will be **SPANISH**, unlike the rest of all documentation and code. This will make confusions less likely and will make it easier to post a bug report or other kind of issues for local contributors, as was started and will continue development on spanish-speaker universities (at Chile).
 
-The format for issue names is `[BRANCH NAME] ISSUE TITLE`, for instance, *"[ethicapp-overhaul-2122] Error de actualización al cambiar de tabs bugSomething isn't working"*. Only specific issues must be created, not general or vague issues, such as, for example, *"Actualizar frontend"*. Besides, there are 3 types of issues, with are defined in this section as follows.
+The format for issue names is `[BRANCH NAME] ISSUE TITLE`, for instance, *"[ethicapp-overhaul] Error al cargar panel de control de profesor durante evaluación (HTTP 504 Gateway Timeout)"*. Only specific issues must be created, not general or vague issues, such as, for example, *"Actualizar frontend"*. Besides, there are 3 types of issues, with are defined in this section as follows.
 
-### 1.1. Bug reports
+### 2.1. Bug reports
 
 > A bug is a demonstrable problem that is caused by the code in the repository. Good bug reports are extremely helpful – thank you!
 >
@@ -27,40 +49,34 @@ The format for issue names is `[BRANCH NAME] ISSUE TITLE`, for instance, *"[ethi
 
 Before submitting a bug report, please search in the existing issues, as someone else could have reported the problem already. Once you have decided to submit a report, go to [issues](https://github.com/EthicApp-Development/ethicapp-main/issues) and hit the "New issue" button. Then, select click "*Reporte de error*" and enter the required information on that template.
 
-Example:
+<!-- TODO: example with screenshot -->
 
-TODO <!-- TODO: include a good actual example, as a screenshot -->
+### 2.2. Feature requests
 
-### 1.2. Feature requests
+For posting a request for a new feature in the platform, first search in the existing issues and make sure nobody as already asked for such feature. For creating a new feature request, similarly to [when submitting a bug report](#21-bug-reports), select "*Nueva característica*" when creating the issue and fill the required fields.
 
-For posting a request for a new feature in the platform, first search in the existing issues and make sure nobody as already asked for such feature. For creating a new feature request, similarly to [when submitting a bug report](#11-bug-reports), select "*Nueva característica*" when creating the issue and fill the required fields.
+<!-- TODO: example with screenshot -->
 
-Example:
-
-TODO <!-- TODO: include a good actual example, as a screenshot -->
-
-### 1.3. Questions and discussions
-
-(internal development scope?)
-
-<!-- TODO: describe how to make a question/start a discussion, using a proper issue label -->
-
-## 2. Merging
-
-... <!-- TODO: tutorial of how to perform a non-fast-forward merge on vscode IDE -->
+<!-- TODO: mention that, for questions and discussion, a Discord server will be used, in which contributors can join -->
 
 ## 3. Pull requests
 
-TODO <!-- TODO -->
+<!-- ! -->
 
-## 4. Committing
+## 4. Merging
 
-TODO <!-- TODO -->
+<!-- ! -->
 
-## 5. Branching
+... <!-- TODO: tutorial of how to perform a non-fast-forward merge on vscode IDE -->
 
-TODO <!-- TODO -->
+## 5. Committing
 
-## 6. Appendix: references
+<!-- ! -->
+
+## 6. Branching
+
+<!-- ! -->
+
+## 7. Appendix: references
 
 The issues guidelines were inspired from [Nicolas Gallagher's `issue-guidelines` project](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md). Microsoft's [PowerToys issue templates](https://github.com/microsoft/PowerToys/tree/main/.github/ISSUE_TEMPLATE) for GitHub were used as reference to [EthicApp's issue templates](https://github.com/EthicApp-Development/ethicapp-main/tree/master/.github/ISSUE_TEMPLATE) (main repository).

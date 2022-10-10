@@ -19,14 +19,13 @@ Each indentation level must be 4 spaces (also configured for JavaScript files au
 
 All member names must be in english and meaningful (at least 3 characters long, self-explanatory) and must follow the case standard as follows.
 
-| Member        | Case type    |
-| ------------- | ------------ |
-| Variable      | `camelCase`  |
-| Function      | `camelCase`  |
-| Class/package | `PascalCase` |
-| Constant      | `MACRO_CASE` |
-
-Also, all source files must be named following `kebab-case`.
+| Member                  | Case type    |
+| ----------------------- | ------------ |
+| Variable name           | `camelCase`  |
+| Function or method name | `camelCase`  |
+| Class or name           | `PascalCase` |
+| Constant name           | `MACRO_CASE` |
+| Source file name        | `kebab-case` |
 
 ## 3. Comments
 
