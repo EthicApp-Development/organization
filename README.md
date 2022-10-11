@@ -4,7 +4,7 @@ EthicApp is an open-source academic project designed to help higher education st
 
 > EthicApp is a collaborative application to support students’ development of ethical discernment and moral reasoning. It is available as a web application that can be accessed by any device with a capable web browser, including desktop computers, smart phones, or tablets. EthicApp works in face-to-face or distributed settings, synchronously or asynchronously. [[1]](#1)
 
-This repository contains information of the [`EthicApp-Development` GitHub organization](https://github.com/EthicApp-Development) exclusively for developing the EthicApp project, which main repository is [`ethicapp-main`](https://github.com/EthicApp-Development/ethicapp-main). For a much more detailed and technical explanation of the project, consider reviewing the paper *Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity* (see [references section](#3-appendix-references)).
+This repository contains information of the [`EthicApp-Development` GitHub organization](https://github.com/EthicApp-Development) exclusively for developing the EthicApp project, which main repository is [`ethicapp-main`](https://github.com/EthicApp-Development/ethicapp-main). For a much more detailed and technical explanation of the project, consider reviewing the paper *Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity* (see [references section](#31-references)).
 
 ## 1. Vision and goals
 
@@ -18,7 +18,15 @@ EthicApp was started at [Universidad de Chile](https://uchile.cl/) in 2017 by a 
 
 Currently, this project is being successfully implemented in a small amount of universities at a local scope (national, chilean). In a close future, as organization, we would like to facilitate the adoption of EthicApp in other institutions, increasing the number of users and giving the first steps in becoming a significant contribution to ethical education.
 
-## 3. Appendix: references
+## 3. Appendixes
+
+### 3.1. References
 
 <a id="1">[1]</a>
 [Alvarez, C, Zurita, G, Carvallo, A, Ramírez, P, Bravo, E & Baloian, N 2021, "Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity", Collaboration Technologies and Social Computing](https://www.researchgate.net/publication/354112860_Automatic_Content_Analysis_of_Student_Moral_Discourse_in_a_Collaborative_Learning_Activity)
+
+### 3.2. Acknowledgements
+
+- This structure for [EthicApp's JavaScript guidelines document](./Guidelines/JavaScript.md) was highly inspired in [Visual Studio Code's coding guidelines](https://github.com/microsoft/vscode/wiki/Coding-Guidelines).
+- The issues guidelines were inspired from [Nicolas Gallagher's `issue-guidelines` project](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md). Microsoft's [PowerToys issue templates](https://github.com/microsoft/PowerToys/tree/main/.github/ISSUE_TEMPLATE) for GitHub were used as reference to [EthicApp's issue templates](https://github.com/EthicApp-Development/ethicapp-main/tree/master/.github/ISSUE_TEMPLATE) (at the main project repository).
+- The structure for channels and categories for [our development Discord server](https://discord.gg/SwA7MVgu) was highly inspired in [OBS Studio](https://obsproject.com/discord)'s.

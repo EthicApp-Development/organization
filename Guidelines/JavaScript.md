@@ -7,7 +7,6 @@
     - [3.1. Functions](#31-functions)
     - [3.2. Classes](#32-classes)
   - [4. Strings](#4-strings)
-  - [5. Appendix: acknowledgements](#5-appendix-acknowledgements)
 
 The linter for automatically enforcing the coding style is [ESLint](https://eslint.org/). Its configuration file `.eslint.json` is located at the root directory of the main project repository, where the custom rules are defined, based on ESLint's recommended configuration.
 
@@ -58,7 +57,3 @@ Note that, for both cases, the overall description is optional and should be inc
 ## 4. Strings
 
 Strings must be double-quoted, `"like this"`.
-
-## 5. Appendix: acknowledgements
-
-This document structure was highly inspired in [Visual Studio Code's coding guidelines](https://github.com/microsoft/vscode/wiki/Coding-Guidelines).

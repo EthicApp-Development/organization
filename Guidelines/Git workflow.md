@@ -13,7 +13,6 @@ Our projects will implement `agis`'s Git standards, defined in [this brief docum
   - [3. Pull requests](#3-pull-requests)
   - [4. Merging](#4-merging)
   - [5. Committing](#5-committing)
-  - [6. Appendix: references](#6-appendix-references)
 
 ## 1. How changes are made
 
@@ -93,7 +92,7 @@ Where:
 - `ISSUE_NUMBER` is the repository's issue number the commit refers to.
 - `ADDITIONAL_INFORMATION`: optional, and useful for when desiring to provide a more detailed explanation of the change, or desiring to list more than one necessary change in the commit. For this last case, list them as a markdown list, as the example below shows.
 
-Keep in mind that the first line of the commit message **must not exceed 80 characters long**, so avoid large titles, add explanation in further lines when needed. This is important, so as to be able to view the issue number from GitHub's commit history.
+Keep in mind that the first line of the commit message **must not exceed 50 characters long**, so avoid large titles, add explanation in further lines when needed. This is important, so as to be able to view the issue number from GitHub's commit history.
 
 Example:
 
@@ -104,7 +103,3 @@ Example:
 ```
 
 <!-- TODO: diagram where all branches and their purpose are clear (e.g. explained distinction between main and overhaul), or should this be done only when the project is near-ready to be published? -->
-
-## 6. Appendix: references
-
-The issues guidelines were inspired from [Nicolas Gallagher's `issue-guidelines` project](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md). Microsoft's [PowerToys issue templates](https://github.com/microsoft/PowerToys/tree/main/.github/ISSUE_TEMPLATE) for GitHub were used as reference to [EthicApp's issue templates](https://github.com/EthicApp-Development/ethicapp-main/tree/master/.github/ISSUE_TEMPLATE) (main repository).
