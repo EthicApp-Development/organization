@@ -13,8 +13,7 @@ Our projects will implement `agis`'s Git standards, defined in [this brief docum
   - [3. Pull requests](#3-pull-requests)
   - [4. Merging](#4-merging)
   - [5. Committing](#5-committing)
-  - [6. Branching](#6-branching)
-  - [7. Appendix: references](#7-appendix-references)
+  - [6. Appendix: references](#6-appendix-references)
 
 ## 1. How changes are made
 
@@ -61,22 +60,51 @@ For posting a request for a new feature in the platform, first search in the exi
 
 ## 3. Pull requests
 
-<!-- ! -->
+When attempting to close an issue, a pull request must be created to merge the issue branch with the finished job, into the target branch (e.g. `overhaul`, `develop`). The pull request must be titled `[BRANCH_NAME] Closes #ISSUE_NUMBER: [MEANINGFUL_TITLE]` (e.g. `[overhaul] Closes #26: error 404 when setting teacher question title larger than 128 chars`), and the body must include an explanation of the technical changes performed. Both pull title and body must be in **ENGLISH**.
+
+Then, a maintainer will review this pull request, and when then code discussion gets resolved, the pull request will be approved and the maintainer will merge the changes finally to the target branch.
 
 ## 4. Merging
 
-<!-- ! -->
+When a maintainer pretends to merge, always use the **not fast-forward** flag, so as to always create a merge commit, and have a more clear change history:
 
-... <!-- TODO: tutorial of how to perform a non-fast-forward merge on vscode IDE -->
+```shell
+git merge --no-ff [...]
+```
+
+[GitHub Desktop](https://desktop.github.com/) (also available for Linux) can be a very helpful tool for handling merges, as it may be more intuitive than `vscode`.
+
+<!-- TODO: tutorial of how to perform a non-fast-forward merge on vscode IDE -->
 
 ## 5. Committing
 
-<!-- ! -->
+Commit messages must match the following format:
 
-## 6. Branching
+```text
+[COMPONENT_NAME] MEANINGFUL_TITLE (#ISSUE_NUMBER)
 
-<!-- ! -->
+[ADDITIONAL_INFORMATION]
+```
 
-## 7. Appendix: references
+Where:
+
+- `COMPONENT_NAME` will depend on the nature of the commit, and has to be the affected component by the commit (e.g. controller name, view template name). There will be some specific cases in which `COMPONENT_NAME` would not apply (e.g. when a important dependency is updated at `package.json`, etc.), but for most of cases, it must be included.
+- `MEANINGFUL_TITLE` is a brief and concise title of the changes of the commit.
+- `ISSUE_NUMBER` is the repository's issue number the commit refers to.
+- `ADDITIONAL_INFORMATION`: optional, and useful for when desiring to provide a more detailed explanation of the change, or desiring to list more than one necessary change in the commit. For this last case, list them as a markdown list, as the example below shows.
+
+Keep in mind that the first line of the commit message **must not exceed 80 characters long**, so avoid large titles, add explanation in further lines when needed. This is important, so as to be able to view the issue number from GitHub's commit history.
+
+Example:
+
+```text
+[RoleController] Fixed broken URL for student profiles (#40)
+
+- Small typo fix at SomeControllerMethod causing bad href.
+```
+
+<!-- TODO: diagram where all branches and their purpose are clear (e.g. explained distinction between main and overhaul), or should this be done only when the project is near-ready to be published? -->
+
+## 6. Appendix: references
 
 The issues guidelines were inspired from [Nicolas Gallagher's `issue-guidelines` project](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md). Microsoft's [PowerToys issue templates](https://github.com/microsoft/PowerToys/tree/main/.github/ISSUE_TEMPLATE) for GitHub were used as reference to [EthicApp's issue templates](https://github.com/EthicApp-Development/ethicapp-main/tree/master/.github/ISSUE_TEMPLATE) (main repository).
