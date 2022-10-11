@@ -59,7 +59,7 @@ For posting a request for a new feature in the platform, first search in the exi
 
 ## 3. Pull requests
 
-When attempting to close an issue, a pull request must be created to merge the issue branch with the finished job, into the target branch (e.g. `overhaul`, `develop`). The pull request must be titled `[BRANCH_NAME] Closes #ISSUE_NUMBER: [MEANINGFUL_TITLE]` (e.g. `[overhaul] Closes #26: error 404 when setting teacher question title larger than 128 chars`), and the body must include an explanation of the technical changes performed. Both pull title and body must be in **ENGLISH**.
+When attempting to close an issue, a pull request must be created to merge the issue branch with the finished job, into the target branch (e.g. `overhaul`, `develop`). The pull request must be titled `[BRANCH_NAME] Closes #ISSUE_NUMBER: [MEANINGFUL_TITLE]` (e.g. `[overhaul] Closes #26: error 404 when setting teacher question title larger than 128 chars`), and the body must include an explanation of the changes performed. Both pull title and body must be in **ENGLISH**, as it is more technical information.
 
 Then, a maintainer will review this pull request, and when then code discussion gets resolved, the pull request will be approved and the maintainer will merge the changes finally to the target branch.
 
@@ -82,17 +82,17 @@ Commit messages must match the following format:
 ```text
 [COMPONENT_NAME] MEANINGFUL_TITLE (#ISSUE_NUMBER)
 
-[ADDITIONAL_INFORMATION]
+ADDITIONAL_DESCRIPTION
 ```
 
 Where:
 
-- `COMPONENT_NAME` will depend on the nature of the commit, and has to be the affected component by the commit (e.g. controller name, view template name). There will be some specific cases in which `COMPONENT_NAME` would not apply (e.g. when a important dependency is updated at `package.json`, etc.), but for most of cases, it must be included.
+- `COMPONENT_NAME` will depend on the nature of the commit, and has to be the affected component or module by the commit (e.g. controller name, view template name). There will be some specific cases in which `COMPONENT_NAME` would not apply (e.g. when a important dependency is updated at `package.json`, etc.), but for most of cases, it must be included.
 - `MEANINGFUL_TITLE` is a brief and concise title of the changes of the commit.
 - `ISSUE_NUMBER` is the repository's issue number the commit refers to.
-- `ADDITIONAL_INFORMATION`: optional, and useful for when desiring to provide a more detailed explanation of the change, or desiring to list more than one necessary change in the commit. For this last case, list them as a markdown list, as the example below shows.
+- `ADDITIONAL_DESCRIPTION`: optional, and useful for when desiring to provide a more detailed explanation of the change, or desiring to list more than one necessary change in the commit. For this last case, list them as a markdown list, as the example below shows.
 
-Keep in mind that the first line of the commit message **must not exceed 50 characters long**, so avoid large titles, add explanation in further lines when needed. This is important, so as to be able to view the issue number from GitHub's commit history.
+Keep in mind that the first line of the commit message **must not exceed 50 characters long**, so avoid large titles, add explanation in further lines when needed. This is important, so as to be able to view the issue number from GitHub's commit history. Also, note that there is a blank line between the commit title and the body.
 
 Example:
 

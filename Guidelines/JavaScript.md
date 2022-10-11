@@ -16,7 +16,7 @@ Each indentation level must be 4 spaces (also configured for JavaScript files au
 
 ## 2. Naming
 
-All member names must be in english and meaningful (at least 3 characters long, self-explanatory) and must follow the case standard as follows.
+All member names must be in english and meaningful (at least 3 characters long, self-explanatory) and must follow the case standard as follows. Do not be afraid of long names, as well as they are meaningful and not excessively long.
 
 | Member                  | Case type    |
 | ----------------------- | ------------ |
