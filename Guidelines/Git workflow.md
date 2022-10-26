@@ -7,12 +7,14 @@ Our projects will implement `agis`'s Git standards, defined in [this brief docum
     - [1.1. The issue is created](#11-the-issue-is-created)
     - [1.2. The issue gets assigned to a contributor](#12-the-issue-gets-assigned-to-a-contributor)
     - [1.3. The issue gets resolved](#13-the-issue-gets-resolved)
-  - [2. Issuing](#2-issuing)
-    - [2.1. Bug reports](#21-bug-reports)
-    - [2.2. Feature requests](#22-feature-requests)
-  - [3. Pull requests](#3-pull-requests)
-  - [4. Merging](#4-merging)
-  - [5. Committing](#5-committing)
+  - [2. Branching](#2-branching)
+  - [3. Issuing](#3-issuing)
+    - [3.1. Bug reports](#31-bug-reports)
+    - [3.2. Feature requests](#32-feature-requests)
+    - [3.3. Enhancement](#33-enhancement)
+  - [4. Pull requests](#4-pull-requests)
+  - [5. Merging](#5-merging)
+  - [6. Committing](#6-committing)
 
 ## 1. How changes are made
 
@@ -27,19 +29,42 @@ For both cases, the maintainer has to ensure the issue has all the relevant info
 
 ### 1.2. The issue gets assigned to a contributor
 
-A contributor assigns themselves the issue, and starts working on it, by creating a new branch to work on it, named `issue-X`, where `X` is the issue number. This branch is created from the branch the issue refers to (more details in the next section).
+The maintainer coordinates the assignation of issues for each contributor. However, you can ask them to be assigned to a particular issue you would like to start working on. Once someone is assigned to an issue, a new branch is created to work on it, named in the format:
+
+```txt
+issue-NUMBER-TYPE
+```
+
+Where `NUMBER` is the issue number, and `TYPE` is the kind of issue: whether `bug`, `feature` (for new feature) or `enhancement`.
+
+This branch is created from the branch the issue refers to (e.g. from `overhaul-2122`, `unstable`, etc.). More details at [section 3](#3-issuing).
 
 ### 1.3. The issue gets resolved
 
 After the contributor performs the changes to fulfill the requirements for the issue, at its branch, they raise a pull request, for merging the changes in the original branch. The maintainer performs code reviewing and QA, and once the pull request gets resolved, the changes are merged in the branch by the maintainer, closing the issue.
 
-## 2. Issuing
+## 2. Branching
+
+<!-- ! -->
+<!-- TODO: explain the purpose for all branches, and their hierarchy, if needed -->
+
+| Branch name               | Description         |
+| ------------------------- | ------------------- |
+| clean                     | ...                 |
+| temp                      | **MUST BE DELETED** |
+| unstable                  | ...                 |
+| new-dashboard-integration | ...                 |
+| overhaul-2122             | ...                 |
+
+## 3. Issuing
 
 This section explain how and when to create issues in the [EthicApp's GitHub project repository](https://github.com/EthicApp-Development/ethicapp-main). The language of all issues will be **SPANISH**, unlike the rest of all documentation and code. This will make confusions less likely and will make it easier to post a bug report or other kind of issues for local contributors, as was started and will continue development on spanish-speaker universities (at Chile).
 
-The format for issue names is `[BRANCH NAME] ISSUE TITLE`, for instance, *"[ethicapp-overhaul] Error al cargar panel de control de profesor durante evaluación (HTTP 504 Gateway Timeout)"*. Only specific issues must be created, not general or vague issues, such as, for example, *"Actualizar frontend"*. Besides, there are 3 types of issues, with are defined in this section as follows.
+The format for issue names is `[BRANCH_NAME] ISSUE_TITLE`, for instance, *"[overhaul-2122] Error al cargar panel de control de profesor durante evaluación (HTTP 504 Gateway Timeout)"*. Only specific issues must be created, not general or vague issues, such as, for example, *"Actualizar frontend"*. Besides, there are 3 types of issues: bug report, feature request and enhancement, detailed below.
 
-### 2.1. Bug reports
+Note: have in mind that [our Discord server](https://discord.gg/SwA7MVgu) will be used for general code discussions and questions, as explained on [section 1.2](./../CONTRIBUTING.md#12-discord) at the CONTRIBUTING file.
+
+### 3.1. Bug reports
 
 > A bug is a demonstrable problem that is caused by the code in the repository. Good bug reports are extremely helpful – thank you!
 >
@@ -49,21 +74,25 @@ Before submitting a bug report, please search in the existing issues, as someone
 
 <!-- TODO: example with screenshot -->
 
-### 2.2. Feature requests
+### 3.2. Feature requests
 
-For posting a request for a new feature in the platform, first search in the existing issues and make sure nobody as already asked for such feature. For creating a new feature request, similarly to [when submitting a bug report](#21-bug-reports), select "*Nueva característica*" when creating the issue and fill the required fields.
+For posting a request for a new feature in the platform, first search in the existing issues and make sure nobody as already asked for such feature. For creating a new feature request, similarly to [when submitting a bug report](#31-bug-reports), select "*Nueva característica*" when creating the issue and fill the required fields.
 
 <!-- TODO: example with screenshot -->
 
-<!-- TODO: mention that, for questions and discussion, a Discord server will be used, in which contributors can join -->
+### 3.3. Enhancement
 
-## 3. Pull requests
+When you believe a change or enhancement is needed to an existing component of the project, you must create an issue from the template named *Mejora*.
+
+<!-- TODO: example with screenshot -->
+
+## 4. Pull requests
 
 When attempting to close an issue, a pull request must be created to merge the issue branch with the finished job, into the target branch (e.g. `overhaul`, `develop`). The pull request must be titled `[BRANCH_NAME] Closes #ISSUE_NUMBER: [MEANINGFUL_TITLE]` (e.g. `[overhaul] Closes #26: error 404 when setting teacher question title larger than 128 chars`), and the body must include an explanation of the changes performed. Both pull title and body must be in **ENGLISH**, as it is more technical information.
 
 Then, a maintainer will review this pull request, and when then code discussion gets resolved, the pull request will be approved and the maintainer will merge the changes finally to the target branch.
 
-## 4. Merging
+## 5. Merging
 
 When a maintainer pretends to merge, always use the **not fast-forward** flag, so as to always create a merge commit, and have a more clear change history:
 
@@ -73,9 +102,9 @@ git merge --no-ff [...]
 
 [GitHub Desktop](https://desktop.github.com/) (also available for Linux) can be a very helpful tool for handling merges, as it may be more intuitive than `vscode`.
 
-<!-- TODO: tutorial of how to perform a non-fast-forward merge on vscode IDE -->
+<!-- TODO: tutorial of how to perform a non-fast-forward merge on vscode + GitLens -->
 
-## 5. Committing
+## 6. Committing
 
 Commit messages must match the following format:
 
@@ -102,4 +131,4 @@ Example:
 - Small typo fix at SomeControllerMethod causing bad href.
 ```
 
-<!-- TODO: diagram where all branches and their purpose are clear (e.g. explained distinction between main and overhaul), or should this be done only when the project is near-ready to be published? -->
+Finally, be prudent with the size of your commits, i.e., try to avoid commits with a single change in a single file, and also avoid commits with huge changes in multiple files.
