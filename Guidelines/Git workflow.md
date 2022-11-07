@@ -35,7 +35,7 @@ The maintainer coordinates the assignation of issues for each contributor. Howev
 issue-NUMBER-TYPE
 ```
 
-Where `NUMBER` is the issue number, and `TYPE` is the kind of issue: whether `bug`, `feature` (for new feature) or `enhancement`.
+Where `NUMBER` is the issue number, and `TYPE` is the kind of issue: whether `bug`, `feature` (for new feature) or `enhancement`. For example, `"issue-47-feature"`.
 
 This branch is created from the branch the issue refers to (e.g. from `overhaul-2122`, `unstable`, etc.). More details at [section 3](#3-issuing).
 
@@ -47,6 +47,7 @@ After the contributor performs the changes to fulfill the requirements for the i
 
 <!-- ! -->
 <!-- TODO: explain the purpose for all branches, and their hierarchy, if needed -->
+<!--? what about translation fixes or requests??? -->
 
 | Branch name               | Description         |
 | ------------------------- | ------------------- |
@@ -90,11 +91,11 @@ When you believe a change or enhancement is needed to an existing component of t
 
 When attempting to close an issue, a pull request must be created to merge the issue branch with the finished job, into the target branch (e.g. `overhaul`, `develop`). The pull request must be titled `[BRANCH_NAME] Closes #ISSUE_NUMBER: [MEANINGFUL_TITLE]` (e.g. `[overhaul] Closes #26: error 404 when setting teacher question title larger than 128 chars`), and the body must include an explanation of the changes performed. Both pull title and body must be in **ENGLISH**, as it is more technical information.
 
-Then, a maintainer will review this pull request, and when then code discussion gets resolved, the pull request will be approved and the maintainer will merge the changes finally to the target branch.
+Then, a maintainer will assign a reviewer for your pull request, and once then code discussion between you and the reviewer gets resolved, the pull request will be approved and the maintainer will merge the changes finally to the target branch.
 
 ## 5. Merging
 
-When a maintainer pretends to merge, always use the **not fast-forward** flag, so as to always create a merge commit, and have a more clear change history:
+When a maintainer pretends to merge, always use the **not fast-forward** flag, so as to always create a merge commit and have a more clear change history:
 
 ```shell
 git merge --no-ff [...]
@@ -102,6 +103,7 @@ git merge --no-ff [...]
 
 [GitHub Desktop](https://desktop.github.com/) (also available for Linux) can be a very helpful tool for handling merges, as it may be more intuitive than `vscode`.
 
+<!-- ! -->
 <!-- TODO: tutorial of how to perform a non-fast-forward merge on vscode + GitLens -->
 
 ## 6. Committing
