@@ -36,7 +36,7 @@ As the industry standard language for software developing is english, but the pr
 | Branch names                                            | :large_blue_circle: English |
 | GitHub pull requests                                    | :large_blue_circle: English |
 | GitHub issues                                           | :red_circle: Spanish        |
-| Communication on [Discord](https://discord.gg/SwA7MVgu) | :red_circle: Spanish        |
+| Communication on [Discord](https://discord.gg/w3MD6eX2Cx) | :red_circle: Spanish        |
 
 ### 4.2. References
 
@@ -48,4 +48,4 @@ As the industry standard language for software developing is english, but the pr
 - The structure for [EthicApp's JavaScript guidelines document](./Guidelines/JavaScript.md) was highly inspired in [Visual Studio Code's coding guidelines](https://github.com/microsoft/vscode/wiki/Coding-Guidelines).
 - The issues guidelines were inspired from [Nicolas Gallagher's `issue-guidelines` project](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md).
 - The GitHub issue templates from [Microsoft's PowerToys](https://github.com/microsoft/PowerToys/tree/main/.github/ISSUE_TEMPLATE) and [rubrikinc](https://github.com/rubrikinc/template/blob/50ed3c71920695810329ca75b8727a3f56083417/.github/ISSUE_TEMPLATE/enhancement-request.md) were used as reference to [EthicApp's issue templates](https://github.com/EthicApp-Development/ethicapp-main/tree/master/.github/ISSUE_TEMPLATE) (at the main project repository).
-- The structure for channels and categories of [our development Discord server](https://discord.gg/SwA7MVgu) was inspired in [OBS Studio](https://obsproject.com/discord)'s.
+- The structure for channels and categories of [our development Discord server](https://discord.gg/w3MD6eX2Cx) was inspired in [OBS Studio](https://obsproject.com/discord)'s.

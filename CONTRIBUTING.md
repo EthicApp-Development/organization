@@ -12,7 +12,7 @@ Of course, for code reviewing, issuing and committing will take place at the pro
 
 ### 1.2. Discord
 
-For a very organized, flexible, but also natural way to discuss, record progress at a broad level and solve questions. You can join the project discord server from [this invite link](https://discord.gg/SwA7MVgu). You will be able to see various channels for discussion, and a single voice channel for scheduled real-time meetings.
+For a very organized, flexible, but also natural way to discuss, record progress at a broad level and solve questions. You can join the project discord server from [this invite link](https://discord.gg/w3MD6eX2Cx). You will be able to see various channels for discussion, and a single voice channel for scheduled real-time meetings.
 
 <!-- ### Mailing list
 A mailing list, where important announcements, such as scheduled real-time meetings, are delivered to all contributors of the project. -->
@@ -22,4 +22,4 @@ A mailing list, where important announcements, such as scheduled real-time meeti
 
 This section is intended for maintainers. User stories will be stored at a MS Excel (or equivalent) file in a shared Google Drive folder, where the maintainer is the person able to update it. The maintainer will also create and update tasks from the user stories, and manage them at a Trello dashboard, where every task can be assigned to a team member. Then, issues will be created accordingly at the GitHub repository, where these will be addressed by contributors.
 
-Finally, scheduled team meetings for important decisions will be announced on [EthicApp's Discord server](https://discord.gg/SwA7MVgu) and will take place over the corresponding voice channel.
+Finally, scheduled team meetings for important decisions will be announced on [EthicApp's Discord server](https://discord.gg/w3MD6eX2Cx) and will take place over the corresponding voice channel.

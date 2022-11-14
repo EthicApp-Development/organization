@@ -63,7 +63,7 @@ This section explain how and when to create issues in the [EthicApp's GitHub pro
 
 The format for issue names is `[BRANCH_NAME] ISSUE_TITLE`, for instance, *"[overhaul-2122] Error al cargar panel de control de profesor durante evaluación (HTTP 504 Gateway Timeout)"*. Only specific issues must be created, not general or vague issues, such as, for example, *"Actualizar frontend"*. Besides, there are 3 types of issues: bug report, feature request and enhancement, detailed below.
 
-Note: have in mind that [our Discord server](https://discord.gg/SwA7MVgu) will be used for general code discussions and questions, as explained on [section 1.2](./../CONTRIBUTING.md#12-discord) at the CONTRIBUTING file.
+Note: have in mind that [our Discord server](https://discord.gg/w3MD6eX2Cx) will be used for general code discussions and questions, as explained on [section 1.2](./../CONTRIBUTING.md#12-discord) at the CONTRIBUTING file.
 
 ### 3.1. Bug reports
 
