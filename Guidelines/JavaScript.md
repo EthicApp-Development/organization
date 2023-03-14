@@ -8,7 +8,7 @@
     - [3.2. Classes](#32-classes)
   - [4. Strings](#4-strings)
 
-The linter for automatically enforcing the coding style is [ESLint](https://eslint.org/). Its configuration file `.eslint.json` is located at the root directory of the main project repository, where the custom rules are defined, based on ESLint's recommended configuration.
+The linter for automatically enforcing the coding style is [ESLint](https://eslint.org/). Its configuration file `.eslint.yaml` is located at the root directory of the main project repository, where the custom rules are defined, based on ESLint's recommended configuration.
 
 ## 1. Indentation
 
@@ -16,7 +16,7 @@ Each indentation level must be 4 spaces (also configured for JavaScript files au
 
 ## 2. Naming
 
-All member names must be in english and meaningful (at least 3 characters long, self-explanatory) and must follow the case standard as follows. Do not be afraid of long names, as well as they are meaningful and not excessively long.
+All member names must be in english and **meaningful** (at least 3 characters long, as self-explanatory as possible) and must follow the case standard as follows. Do not be afraid of long names, as well as they are meaningful and not excessively long.
 
 | Member                  | Case type    |
 | ----------------------- | ------------ |
@@ -28,7 +28,7 @@ All member names must be in english and meaningful (at least 3 characters long, 
 
 ## 3. Comments
 
-Code documentation must follow [`JSDoc`](https://jsdoc.app/) standard, which is natively integrated in VSCode IDE. A brief and simplified description of JSDoc is presented in this section. For a more detailed reference, please review [this great article from Wordpress](https://developer.wordpress.org/coding-standards/inline-documentation-standards/javascript/).
+Code documentation must follow [`JSDoc`](https://jsdoc.app/) standard (JSDoc3), which is natively integrated in VSCode IDE and will provide intellisense when used right. A brief and simplified description of JSDoc is presented in this section. For a more detailed reference, please review [this great article from Wordpress](https://developer.wordpress.org/coding-standards/inline-documentation-standards/javascript/).
 
 ### 3.1. Functions
 
@@ -40,6 +40,9 @@ Code documentation must follow [`JSDoc`](https://jsdoc.app/) standard, which is 
  * [@throws {error_type} Description.]
  * @returns {return_type} Description.
  */
+function myFunction(parameter_name) {
+    ...
+}
 ```
 
 ### 3.2. Classes
@@ -50,6 +53,9 @@ Code documentation must follow [`JSDoc`](https://jsdoc.app/) standard, which is 
  * 
  * @member {member_type} member_name Description.
  */
+class MyClass {
+    ...
+}
 ```
 
 Note that, for both cases, the overall description is optional and should be included wisely when needed.
