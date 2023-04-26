@@ -89,7 +89,7 @@ When you believe a change or enhancement is needed to an existing component of t
 
 ## 4. Pull requests
 
-When attempting to close an issue, a pull request must be created to merge the issue branch with the finished job, into the target branch (e.g. `overhaul`, `develop`). The pull request must be titled `[BRANCH_NAME] Closes #ISSUE_NUMBER: [MEANINGFUL_TITLE]` (e.g. `[overhaul] Closes #26: error 404 when setting teacher question title larger than 128 chars`), and the body must include an explanation of the changes performed. Both pull title and body must be in **ENGLISH**, as it is more technical information.
+When attempting to close an issue, a pull request must be created to merge the issue branch with the finished job, into the target branch (e.g. `overhaul`, `develop`). The pull request must be titled `[BRANCH_NAME] Issue #ISSUE_NUMBER: [MEANINGFUL_TITLE]` (e.g. `[overhaul-2122] Issue #26: error 404 when setting teacher question title larger than 128 chars`), and the body must include an explanation of the changes performed. The PR body must be in **SPANISH**, as it will be easier to discuss.
 
 Then, a maintainer will assign a reviewer for your pull request, and once then code discussion between you and the reviewer gets resolved, the pull request will be approved and the maintainer will merge the changes finally to the target branch.
 
@@ -102,9 +102,6 @@ git merge --no-ff [...]
 ```
 
 [GitHub Desktop](https://desktop.github.com/) (also available for Linux) can be a very helpful tool for handling merges, as it may be more intuitive than `vscode`.
-
-<!-- ! -->
-<!-- TODO: tutorial of how to perform a non-fast-forward merge on vscode + GitLens -->
 
 ## 6. Committing
 

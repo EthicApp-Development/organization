@@ -28,14 +28,14 @@ If you intend to contribute, please review [this document](./CONTRIBUTING.md). Y
 
 As the industry standard language for software developing is english, but the project is developed in a spanish-speaker country, these two languages will be used in different contexts, which are mentioned over the documentation files. As this can be confusing, the following table shows clearly which language must be used depending on the setting.
 
-| Context                                                 | Language                    |
-| ------------------------------------------------------- | --------------------------- |
-| Source code files (naming, commenting)                  | :large_blue_circle: English |
-| Documentation files (markdown)                          | :large_blue_circle: English |
-| Git commit messages                                     | :large_blue_circle: English |
-| Branch names                                            | :large_blue_circle: English |
-| GitHub pull requests                                    | :large_blue_circle: English |
-| GitHub issues                                           | :red_circle: Spanish        |
+| Context                                                   | Language                    |
+| --------------------------------------------------------- | --------------------------- |
+| Source code files (naming, commenting)                    | :large_blue_circle: English |
+| Documentation files (markdown)                            | :large_blue_circle: English |
+| Git commit messages                                       | :large_blue_circle: English |
+| Branch names                                              | :large_blue_circle: English |
+| GitHub pull requests                                      | :red_circle: Spanish        |
+| GitHub issues                                             | :red_circle: Spanish        |
 | Communication on [Discord](https://discord.gg/w3MD6eX2Cx) | :red_circle: Spanish        |
 
 ### 4.2. References
