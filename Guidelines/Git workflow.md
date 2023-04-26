@@ -89,7 +89,7 @@ When you believe a change or enhancement is needed to an existing component of t
 
 ## 4. Pull requests
 
-When attempting to close an issue, a pull request must be created to merge the issue branch with the finished job, into the target branch (e.g. `overhaul`, `develop`). The pull request must be titled `[BRANCH_NAME] Issue #ISSUE_NUMBER: [MEANINGFUL_TITLE]` (e.g. `[overhaul-2122] Issue #26: error 404 when setting teacher question title larger than 128 chars`), and the body must include an explanation of the changes performed. The PR body must be in **SPANISH**, as it will be easier to discuss.
+When attempting to close an issue, a pull request must be created to merge the issue branch with the finished job, into the target branch (e.g. `overhaul`, `develop`). The pull request must be titled `[TARGET_BRANCH_NAME] Issue #ISSUE_NUMBER: [MEANINGFUL_TITLE]` (e.g. `[overhaul-2122] Issue #26: error 404 when setting teacher question title larger than 128 chars`), and the body must include an explanation of the changes performed. The PR body must be in **SPANISH**, as it will be easier to discuss.
 
 Then, a maintainer will assign a reviewer for your pull request, and once then code discussion between you and the reviewer gets resolved, the pull request will be approved and the maintainer will merge the changes finally to the target branch.
 
