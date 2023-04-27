@@ -29,7 +29,7 @@ For both cases, the maintainer has to ensure the issue has all the relevant info
 
 ### 1.2. The issue gets assigned to a contributor
 
-The maintainer coordinates the assignation of issues for each contributor. However, you can ask them to be assigned to a particular issue you would like to start working on. Once someone is assigned to an issue, a new branch is created to work on it, named in the format:
+The maintainer coordinates the assignation of issues for each contributor. However, you can ask them to be assigned to a particular issue you would like to start working on. Once someone is assigned to an issue, a new branch is created to work on it, named with the format:
 
 ```txt
 issue-NUMBER-TYPE
@@ -41,21 +41,11 @@ This branch is created from the branch the issue refers to (e.g. from `overhaul-
 
 ### 1.3. The issue gets resolved
 
-After the contributor performs the changes to fulfill the requirements for the issue, at its branch, they raise a pull request, for merging the changes in the original branch. The maintainer performs code reviewing and QA, and once the pull request gets resolved, the changes are merged in the branch by the maintainer, closing the issue.
+After the contributor performs the changes to fulfill the requirements for the issue, at its branch, they raise a **pull request**, for merging the changes in the original branch. The maintainer performs code reviewing and QA, and once the pull request gets resolved, the changes are merged in the branch by the maintainer, closing the issue.
 
 ## 2. Branching
 
-<!-- ! -->
-<!-- TODO: explain the purpose for all branches, and their hierarchy, if needed -->
-<!--? what about translation fixes or requests??? -->
-
-| Branch name               | Description         |
-| ------------------------- | ------------------- |
-| clean                     | ...                 |
-| temp                      | **MUST BE DELETED** |
-| unstable                  | ...                 |
-| new-dashboard-integration | ...                 |
-| overhaul-2122             | ...                 |
+The branch for *EthicApp 2.0* is named `overhaul-2122`. The naming format for branches is declared at [section 1.2](#12-the-issue-gets-assigned-to-a-contributor).
 
 ## 3. Issuing
 
