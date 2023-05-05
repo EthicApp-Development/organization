@@ -141,15 +141,18 @@ Every marge to the `master` branch of the main repository should have stable and
 
 ### 7.1. Release notes
 
-Note that GitHub releases support Markdown. The release notes must follow the following format, and must be in Spanish, so that both technical and non-technical users can easily identify changes between versions:
+Note that GitHub releases support Markdown. The release notes must follow the following format, and must be in **spanish**, so that both technical and non-technical users can easily identify changes between versions:
 
 ```markdown
 ## MAJOR.MINOR
 ### Novedades principales
-[List of visible changes very oriented to the non-technical user, e.g. members of the academic community]
+List of visible changes very oriented to the non-technical user, e.g. members of the academic community
 
-### Aspectos técnicos
-[A more detailed list including **relevant** technical changes, e.g. relevant issues solved, refactorings, architectural changes, etc.]
+### Changelog
+A more detailed list including **relevant** technical changes, e.g. relevant issues solved, refactorings, architectural changes, etc.
+
+### Problemas conocidos
+*Known issues* section, where recurrent unexpected behaviors (bugs and similar problems) are described. This is not a list of open issues labeled *bug* in GitHub. In general, there are low priority defects the project is aware of, but somehow they are difficult to fix.
 ```
 
 ### 7.2. Hotfixes

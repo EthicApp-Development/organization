@@ -40,12 +40,17 @@ As the industry standard language for software developing is english, but the pr
 
 ### 4.2. References
 
-<a id="1">[1]</a>
-[Alvarez, C, Zurita, G, Carvallo, A, Ramírez, P, Bravo, E & Baloian, N 2021, "Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity", Collaboration Technologies and Social Computing](https://www.researchgate.net/publication/354112860_Automatic_Content_Analysis_of_Student_Moral_Discourse_in_a_Collaborative_Learning_Activity)
+<!-- Using IEE standard with hardcoded HTML IDs so as to properly reference items -->
+
+<a id="1" href="https://www.researchgate.net/publication/354112860_Automatic_Content_Analysis_of_Student_Moral_Discourse_in_a_Collaborative_Learning_Activity">[1]</a>
+C. Alvarez, G. Zurita, A. Carvallo, P. Ramírez, E. Bravo, and N. Baloian, “Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity,” Collaboration Technologies and Social Computing, 2021, doi: https://doi.org/10.1007/978-3-030-85071-5_1.
+
+<a id="2" href="https://www.tutorialspoint.com/software_testing_dictionary/known_issues.htm">[2]</a>
+“Known Issues,” TutorialsPoint.
 
 ### 4.3. Acknowledgements
 
 - The structure for [EthicApp's JavaScript guidelines document](./Guidelines/JavaScript.md) was highly inspired in [Visual Studio Code's coding guidelines](https://github.com/microsoft/vscode/wiki/Coding-Guidelines).
 - The issues guidelines were inspired from [Nicolas Gallagher's `issue-guidelines` project](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md).
 - The GitHub issue templates from [Microsoft's PowerToys](https://github.com/microsoft/PowerToys/tree/main/.github/ISSUE_TEMPLATE) and [rubrikinc](https://github.com/rubrikinc/template/blob/50ed3c71920695810329ca75b8727a3f56083417/.github/ISSUE_TEMPLATE/enhancement-request.md) were used as reference to [EthicApp's issue templates](https://github.com/EthicApp-Development/ethicapp-main/tree/master/.github/ISSUE_TEMPLATE) (at the main project repository).
-- The structure for channels and categories of [our development Discord server](https://discord.gg/w3MD6eX2Cx) was inspired in [OBS Studio](https://obsproject.com/discord)'s.
+- The structure for channels and categories of [our development Discord server](https://discord.gg/w3MD6eX2Cx) was inspired in [OBS Studio's](https://obsproject.com/discord).
