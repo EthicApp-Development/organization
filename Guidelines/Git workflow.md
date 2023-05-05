@@ -15,6 +15,9 @@ Our projects will implement `agis`'s Git standards, defined in [this brief docum
   - [4. Pull requests](#4-pull-requests)
   - [5. Merging](#5-merging)
   - [6. Committing](#6-committing)
+  - [7. Releases](#7-releases)
+    - [7.1. Release notes](#71-release-notes)
+    - [7.2. Hotfixes](#72-hotfixes)
 
 ## 1. How changes are made
 
@@ -121,3 +124,38 @@ Example:
 ```
 
 Finally, be prudent with the size of your commits, i.e., try to avoid commits with a single change in a single file, and also avoid commits with huge changes in multiple files.
+
+## 7. Releases
+
+EthicApp (after version 2.0) will regularly publish new versions through [GitHub's releases](https://docs.github.com/en/repositories/releasing-projects-on-github/viewing-your-repositorys-releases-and-tags). The naming for versions will follow the [SemVer](https://semver.org/) standard.
+
+A new version (new release) is defined as a relevant change from the previous version, not including small changes or "patches". In other words (and following SemVer), a release will be named with the following level of granularity:
+
+```text
+MAJOR.MINOR
+```
+
+Thus by skipping the `PATCH` identifier of SemVer, due to the nature of EthicApp as a web application (except for the case of a *hotfix*, see section [7.2](#72-hotfixes)).
+
+Every marge to the `master` branch of the main repository should have stable and significant changes, and thus conform a new *release*. When this is performed, it must be labeled in the previously declared format, and it must be published along with *release notes*, as defined in the following section, using GitHub's built-in releases (within the main repository).
+
+### 7.1. Release notes
+
+Note that GitHub releases support Markdown. The release notes must follow the following format, and must be in Spanish, so that both technical and non-technical users can easily identify changes between versions:
+
+```markdown
+## MAJOR.MINOR
+### Novedades principales
+[List of visible changes very oriented to the non-technical user, e.g. members of the academic community]
+
+### Aspectos técnicos
+[A more detailed list including **relevant** technical changes, e.g. relevant issues solved, refactorings, architectural changes, etc.]
+```
+
+### 7.2. Hotfixes
+
+Only in the case of a hotfix (i.e. a necessary correction of an important bug of a previous version, after it was released), a new release should be published immediately and must have the versioning format:
+
+```text
+MAJOR.MINOR.PATCH
+```
