@@ -18,8 +18,10 @@ There is a Google Group (mailing list) named "EthicApp Development" whose member
 
 ## 2. Planning and tracking changes
 
-<!-- TODO: update this section with the Sheet/Excel file for tracking changes and similar... -->
+The strategic objectives of EthicApp's roadmap(s) should be publicly visible in this repository (e.g. at [`Milestones/`](./Milestones/)). It is also recommended to keep track of progress of the roadmap(s) using free platforms such as [Linear](https://linear.app).
 
-This section is intended for maintainers. User stories will be stored at a MS Excel (or equivalent) file in a shared Google Drive folder, where the maintainer is the person able to update it. The maintainer will also create and update tasks from the user stories, and manage them at a Trello dashboard, where every task can be assigned to a team member. Then, issues will be created accordingly at the GitHub repository, where these will be addressed by contributors.
+From the roadmap, with additional documents such as user stories, maintainers, along with the [BDFL](./GOVERNANCE.md#1-benevolent-dictator-for-life-bdfl), will create issues oriented to the roadmap, which will be assigned to contributors accordingly[^1]. These issues will be addressed following our [Git workflow guidelines](./Guidelines/git-workflow.md), via proper *pull requests*. Note that EthicApp makes use of [GitHub projects](https://github.com/EthicApp-Development/ethicapp-main/projects?query=is%3Aopen), an useful tool for working towards the roadmap.
+
+[^1]: While this is an open source project, it is likely for most of the work to be done by Universidad de los Andes's students, as part of their dissertation or professional practice. For this *internal contributors*, they will be simply assigned to issues related to their academic work. For *external contributors*, coordination with the maintainer is needed to assign the issues they would like to work on.
 
 Finally, scheduled team meetings for important decisions will be announced on [EthicApp's Discord server](https://discord.gg/w3MD6eX2Cx) and will take place over the corresponding voice channel.

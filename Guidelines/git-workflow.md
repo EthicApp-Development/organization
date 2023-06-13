@@ -66,19 +66,13 @@ Note: have in mind that [our Discord server](https://discord.gg/w3MD6eX2Cx) will
 
 Before submitting a bug report, please search in the existing issues, as someone else could have reported the problem already. Once you have decided to submit a report, go to [issues](https://github.com/EthicApp-Development/ethicapp-main/issues) and hit the "New issue" button. Then, select click "*Reporte de error*" and enter the required information on that template.
 
-<!-- TODO: example with screenshot -->
-
 ### 3.2. Feature requests
 
 For posting a request for a new feature in the platform, first search in the existing issues and make sure nobody as already asked for such feature. For creating a new feature request, similarly to [when submitting a bug report](#31-bug-reports), select "*Nueva característica*" when creating the issue and fill the required fields.
 
-<!-- TODO: example with screenshot -->
-
 ### 3.3. Enhancement
 
 When you believe a change or enhancement is needed to an existing component of the project, you must create an issue from the template named *Mejora*.
-
-<!-- TODO: example with screenshot -->
 
 ## 4. Pull requests
 
