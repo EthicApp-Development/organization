@@ -2,9 +2,11 @@
 
 EthicApp is an open-source academic project designed to help higher education students (and teachers) in carrying through ethic discussions.
 
-> EthicApp is a collaborative application to support students’ development of ethical discernment and moral reasoning. It is available as a web application that can be accessed by any device with a capable web browser, including desktop computers, smart phones, or tablets. EthicApp works in face-to-face or distributed settings, synchronously or asynchronously. [[1]](#1)
+> EthicApp is a collaborative application to support students’ development of ethical discernment and moral reasoning. It is available as a web application that can be accessed by any device with a capable web browser, including desktop computers, smart phones, or tablets. EthicApp works in face-to-face or distributed settings, synchronously or asynchronously. [^1]
 
-This repository contains information of the [`EthicApp-Development` GitHub organization](https://github.com/EthicApp-Development) exclusively for developing the EthicApp project, which main repository is [`ethicapp-main`](https://github.com/EthicApp-Development/ethicapp-main). For a much more detailed and technical explanation of the project, consider reviewing the paper *Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity* (see [references section](#42-references)).
+This repository contains information of the [`EthicApp-Development` GitHub organization](https://github.com/EthicApp-Development) exclusively for developing the EthicApp project, which main repository is [`ethicapp-main`](https://github.com/EthicApp-Development/ethicapp-main). For a much more detailed explanation of the project's academic principles, consider reviewing the paper *Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity* [^1].
+
+[^1]: C. Alvarez, G. Zurita, A. Carvallo, P. Ramírez, E. Bravo, and N. Baloian, “Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity,” Collaboration Technologies and Social Computing, 2021, doi: https://doi.org/10.1007/978-3-030-85071-5_1.
 
 ## 1. Vision and goals
 
@@ -33,20 +35,10 @@ As the industry standard language for software developing is english, but the pr
 | Source code files (naming, commenting)                    | :large_blue_circle: English |
 | Documentation files (markdown)                            | :large_blue_circle: English |
 | Git commit messages                                       | :large_blue_circle: English |
-| Branch names                                              | :large_blue_circle: English |
+| Branch naming                                             | :large_blue_circle: English |
 | GitHub pull requests                                      | :red_circle: Spanish        |
 | GitHub issues                                             | :red_circle: Spanish        |
 | Communication on [Discord](https://discord.gg/w3MD6eX2Cx) | :red_circle: Spanish        |
-
-### 4.2. References
-
-<!-- Using IEE standard with hardcoded HTML IDs so as to properly reference items -->
-
-<a id="1" href="https://www.researchgate.net/publication/354112860_Automatic_Content_Analysis_of_Student_Moral_Discourse_in_a_Collaborative_Learning_Activity">[1]</a>
-C. Alvarez, G. Zurita, A. Carvallo, P. Ramírez, E. Bravo, and N. Baloian, “Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity,” Collaboration Technologies and Social Computing, 2021, doi: https://doi.org/10.1007/978-3-030-85071-5_1.
-
-<a id="2" href="https://www.tutorialspoint.com/software_testing_dictionary/known_issues.htm">[2]</a>
-“Known Issues,” TutorialsPoint.
 
 ### 4.3. Acknowledgements
 

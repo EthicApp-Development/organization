@@ -26,7 +26,7 @@ Our projects will implement `agis`'s Git standards, defined in [this brief docum
 A change starts when an issue with the details of the change is added to [the main project's GitHub repository](https://github.com/EthicApp-Development/ethicapp-main). There are two ways an issue is officially created:
 
 - An issue is created by a contributor and then gets approved by a maintainer, for being addressed in the project.
-- Directly created by a maintainer, from a user story that needs to be attended, or from a noticed bug.
+- Directly created by a maintainer (or the [BDFL](./../GOVERNANCE.md#benevolent-dictator-for-life-bdfl)), from a user story that needs to be attended, from a task needed to fulfill the roadmap, or from a noticed bug.
 
 For both cases, the maintainer has to ensure the issue has all the relevant information for the change, and it is labeled properly.
 
