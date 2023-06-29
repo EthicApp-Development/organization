@@ -4,7 +4,7 @@ This project adopts [CNSF's Community Code of Conduct v1.2](https://github.com/c
 
 ## Respect to the maintainer
 
-It is important to highlight that, despite the academic nature of this project in which, currently, nearly all the contributors are students working as part of their thesis (dissertation); maintainers, and their decisions, have to be respected by contributors.
+It is important to note that, while the majority of contributors to this project are students working on their thesis (dissertation), it is essential that all contributors respect the decisions made by the maintainers (which are also students). The [governance](./GOVERNANCE.md) hierarchy has to be followed, despite the academic nature in the development of EthicApp.
 
 ## Reporting guidelines
 
