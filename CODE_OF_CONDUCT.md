@@ -1,6 +1,10 @@
 # Code of conduct
 
-This project adopts [CNSF's Community Code of Conduct v1.2](https://github.com/cncf/foundation/blob/d1aa4b995b2eb6a665a0bf0c76f609508d6ec15a/code-of-conduct.md). Members that violate this code of conduct must be reported to the project manager or owner and will be sanctioned accordingly.
+This project adopts [CNSF's Community Code of Conduct v1.2](https://github.com/cncf/foundation/blob/d1aa4b995b2eb6a665a0bf0c76f609508d6ec15a/code-of-conduct.md). Members that violate this code of conduct must be reported to a maintainer or the [BDFL](./GOVERNANCE.md#benevolent-dictator-for-life-bdfl), and will be sanctioned accordingly.
+
+## Respect to the maintainer
+
+It is important to highlight that, despite the academic nature of this project in which, currently, nearly all the contributors are students working as part of their thesis (dissertation); maintainers, and their decisions, have to be respected by contributors.
 
 ## Reporting guidelines
 
