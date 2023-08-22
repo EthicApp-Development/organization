@@ -1,8 +1,8 @@
 # Governance
 
-The EthicApp organization will follow a *founder-leader* model defined at [this RedHat's blog post](https://www.redhat.com/en/blog/understanding-open-source-governance-models), with the teacher/researcher in charge is the [BDFL](#benevolent-dictator-for-life-bdfl), as this is a research project based on a teacher-student approach, where contributors will be mostly students from [Universidad de los Andes](https://www.uandes.cl/) working as part of their professional practices or career dissertation under the teacher's supervision and guidance.
+The EthicApp organization will follow a _founder-leader_ model defined at [this RedHat's blog post](https://www.redhat.com/en/blog/understanding-open-source-governance-models), which in short states that the person that starts the project is the same that administers it and overall decides the direction of it, in this case the teacher/researcher in charge is the [BDFL](#benevolent-dictator-for-life-bdfl), as this is a research project based on a teacher-student approach, where contributors will be mostly students from [Universidad de los Andes](https://www.uandes.cl/) working as part of their professional practices or career dissertation under the teacher's supervision and guidance.
 
-The roles of EthicApp's project(s) are defined as follows. After reading them, please go to our [Git guidelines](./Guidelines/git-workflow.md) to understand how contributions are made and accepted.
+The roles of EthicApp's project(s) are defined below. After reading them, please go to our [Git guidelines](./Guidelines/git-workflow.md) to understand how contributions are made and accepted.
 
 For checking contributions of historical relevant contributors and students, please go to [ACKNOWLEDGMENTS](./ACKNOWLEDGMENTS.md).
 
