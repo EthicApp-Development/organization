@@ -1,6 +1,6 @@
 # EthicApp guidelines
 
-This project has guidelines for JS code at [`JavaScript.md`](./JavaScript.md), as well as details of the codebase changes process at [`Git workflow.md`](./Git%20workflow.md). Linters will be applied for enforcing a consistent style over the projects for the involved languages, according to the table below.
+This project has guidelines for JS code at [`JavaScript.md`](./javascript.md), as well as details of the codebase changes process at [`Git workflow.md`](./git-workflow.md). Linters will be applied for enforcing a consistent style over the projects for the involved languages, according to the table below.
 
 | Linter name                                                | Target language |
 | ---------------------------------------------------------- | --------------- |

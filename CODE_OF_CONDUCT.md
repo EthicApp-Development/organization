@@ -1,6 +1,6 @@
 # Code of conduct
 
-This project adopts [CNSF's Community Code of Conduct v1.2](https://github.com/cncf/foundation/blob/d1aa4b995b2eb6a665a0bf0c76f609508d6ec15a/code-of-conduct.md). Members that violate this code of conduct must be reported to a maintainer or the [BDFL](./GOVERNANCE.md#benevolent-dictator-for-life-bdfl), and will be sanctioned accordingly.
+This project adopts [CNSF's Community Code of Conduct v1.2](https://github.com/cncf/foundation/blob/d1aa4b995b2eb6a665a0bf0c76f609508d6ec15a/code-of-conduct.md). Members that violate this code of conduct must be reported to a [maintainer](./GOVERNANCE.md#maintainer) or the [BDFL](./GOVERNANCE.md#benevolent-dictator-for-life-bdfl), and will be sanctioned accordingly.
 
 ## Respect to the maintainer
 
@@ -8,7 +8,7 @@ It is important to note that, while the majority of contributors to this project
 
 ## Reporting guidelines
 
-If you are a witness of a member that violates this code of conduct, please contact the BDFL [Claudio Álvarez](https://github.com/claudio-alvarez) including the following information:
+If you are a witness of a member that violates this code of conduct, please contact the [BDFL](./GOVERNANCE.md#benevolent-dictator-for-life-bdfl) including the following information:
 
 1. Your contact info (email or similar, so we can get in touch with you if we need to follow up).
 2. GitHub usernames of all individuals involved. If there were other witnesses besides you, please try to include them as well.

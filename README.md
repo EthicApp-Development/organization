@@ -4,7 +4,7 @@ EthicApp is an open-source academic project designed to help higher education st
 
 > EthicApp is a collaborative application to support students’ development of ethical discernment and moral reasoning. It is available as a web application that can be accessed by any device with a capable web browser, including desktop computers, smart phones, or tablets. EthicApp works in face-to-face or distributed settings, synchronously or asynchronously. [^1]
 
-This repository contains information of the [`EthicApp-Development` GitHub organization](https://github.com/EthicApp-Development) exclusively for developing the EthicApp project, which main repository is [`ethicapp-main`](https://github.com/EthicApp-Development/ethicapp-main). For a much more detailed explanation of the project's academic principles, consider reviewing the paper *Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity* [^1].
+This repository contains information of the [`EthicApp-Development` GitHub organization](https://github.com/EthicApp-Development) exclusively for developing the EthicApp project, which main repository is [`ethicapp-main`](https://github.com/EthicApp-Development/ethicapp-main). For a much more detailed explanation of the project's academic principles, consider reviewing the paper _Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity_ [^1].
 
 [^1]: C. Alvarez, G. Zurita, A. Carvallo, P. Ramírez, E. Bravo, and N. Baloian, “Automatic Content Analysis of Student Moral Discourse in a Collaborative Learning Activity,” Collaboration Technologies and Social Computing, 2021, doi: https://doi.org/10.1007/978-3-030-85071-5_1.
 
@@ -42,7 +42,7 @@ As the industry standard language for software developing is english, but the pr
 
 ### 4.3. Acknowledgements
 
-- The structure for [EthicApp's JavaScript guidelines document](./Guidelines/JavaScript.md) was highly inspired in [Visual Studio Code's coding guidelines](https://github.com/microsoft/vscode/wiki/Coding-Guidelines).
+- The structure for [EthicApp's JavaScript guidelines document](./Guidelines/javascript.md) was highly inspired in [Visual Studio Code's coding guidelines](https://github.com/microsoft/vscode/wiki/Coding-Guidelines).
 - The issues guidelines were inspired from [Nicolas Gallagher's `issue-guidelines` project](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md).
 - The GitHub issue templates from [Microsoft's PowerToys](https://github.com/microsoft/PowerToys/tree/main/.github/ISSUE_TEMPLATE) and [rubrikinc](https://github.com/rubrikinc/template/blob/50ed3c71920695810329ca75b8727a3f56083417/.github/ISSUE_TEMPLATE/enhancement-request.md) were used as reference to [EthicApp's issue templates](https://github.com/EthicApp-Development/ethicapp-main/tree/master/.github/ISSUE_TEMPLATE) (at the main project repository).
 - The structure for channels and categories of [our development Discord server](https://discord.gg/w3MD6eX2Cx) was inspired in [OBS Studio's](https://obsproject.com/discord).

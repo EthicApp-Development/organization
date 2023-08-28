@@ -8,7 +8,7 @@
     - [3.2. Classes](#32-classes)
   - [4. Strings](#4-strings)
 
-The linter for automatically enforcing the coding style is [ESLint](https://eslint.org/). Its configuration file `.eslint.yaml` is located at the root directory of the main project repository, where the custom rules are defined, based on ESLint's recommended configuration.
+The linter for automatically enforcing the coding style is [ESLint](https://eslint.org/). Its configuration file `.eslint.yaml` is located at the root directory of the [main project repository](https://github.com/EthicApp-Development/ethicapp-main/tree/master), where the custom rules are defined, based on ESLint's recommended configuration.
 
 ## 1. Indentation
 
@@ -35,7 +35,7 @@ Code documentation must follow [`JSDoc`](https://jsdoc.app/) standard (JSDoc3), 
 ```js
 /**
  * [Overall description.]
- * 
+ *
  * @param {parameter_type} parameter_name Description.
  * [@throws {error_type} Description.]
  * @returns {return_type} Description.
@@ -50,7 +50,7 @@ function myFunction(parameter_name) {
 ```js
 /**
  * [Overall description.]
- * 
+ *
  * @member {member_type} member_name Description.
  */
 class MyClass {

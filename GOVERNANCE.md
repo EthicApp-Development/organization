@@ -14,8 +14,15 @@ The owner of the project and the individual with the ability to unilaterally mak
 
 ## Maintainer
 
+[Miguel Barraza](https://github.com/mabarraza)
+
 Organizes other developers, manages documentation and issues, as well as performing code reviews on commits, maintaining the expected quality standards and ensuring the project is being lead towards its goals.
 
 ## Contributor
 
-Active developer of the project, with enough skills for making significant changes, enhancements and bug fixes directly on code, and suggest documentation updates. Contributors are able to solve bug reports or address feature requests, whose work is reviewed by the maintainer(s). Even small contributions like typos help, thank you.
+Active developer of the project, with enough skills for making significant changes, enhancements and bug fixes directly on code, and suggest documentation updates. Contributors are able to solve bug reports or address feature requests, whose work is reviewed by the maintainer(s). Even small contributions like typos help, thank you. As of today the following contributors are actively working on the project:
+
+- [Javier Soto](https://github.com/javiersoto99)
+- [Joaquín Gracia](https://github.com/jigracia)
+- [Vicente Gana](https://github.com/vicentegana10)
+- [William Carter](https://github.com/William-CarterG)
