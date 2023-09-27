@@ -1,6 +1,6 @@
 # Contributing to EthicApp: overall project management
 
-This document contains general information about how the development team is organized for performing changes to the EthicApp project. If you intend to contribute, please read [the main project's CONTRIBUTING file](https://github.com/EthicApp-Development/ethicapp-main/blob/master/CONTRIBUTING.md). Then, head back to this document to let you know about the communication channels for the team.
+This document contains general information about how the development team is organized for performing changes to the EthicApp project. If you intend to contribute, please read [the main project's CONTRIBUTING file](https://github.com/EthicApp-Development/ethicapp-main/blob/ethicapp-v2/CONTRIBUTING.md). Then, head back to this document to let you know about the communication channels for the team.
 
 ## 1. Communication channels
 
